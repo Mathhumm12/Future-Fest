@@ -81,7 +81,7 @@ header {
 }
 
 .about-section {
-    height: 500px;
+    height: 400px;
 }
 
 .about-section {
@@ -97,8 +97,8 @@ header {
 }
 
 .about-section p {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 footer {
