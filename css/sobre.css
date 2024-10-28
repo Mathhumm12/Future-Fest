@@ -44,3 +44,22 @@ header {
     color: #3a0f0f;
     text-decoration: underline;
 }
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    background-color: #8c2222;
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 200px;
+}
+
+footer ul {
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+footer p {
+    margin-top: 4%;
+}
