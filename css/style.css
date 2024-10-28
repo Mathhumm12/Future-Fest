@@ -81,7 +81,7 @@ header {
 }
 
 .about-section {
-    height: 400px;
+    height: 350px;
 }
 
 .about-section {
@@ -101,13 +101,74 @@ header {
     margin-right: 20%;
 }
 
+.comments-section {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.comments-section h2 {
+    color: #8c2222;
+    margin-bottom: 15px;;
+}
+
+#comment-form {
+    margin-bottom: 20px;
+}
+
+#comment-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #8c2222;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#comments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#comments-list li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.edit-btn,
+.delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #47a8e0; /* Cor laranja para o botão de editar */
+    color: white;
+}
+
+.delete-btn {
+    background-color: #d43636; /* Cor vermelha para o botão de excluir */
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #206975;
+}
+
+.delete-btn:hover {
+    background-color: #940505;
+}
+
 footer {
     color: #ffffff;
     text-align: center;
     background-color: #8c2222;
     padding: 10px 0;
-    margin-top: 10px;
     height: 200px;
+    margin-top: 5%;
 }
 
 footer ul {
