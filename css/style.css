@@ -159,12 +159,12 @@ header {
 }
 
 .edit-btn {
-    background-color: #47a8e0; /* Cor laranja para o botão de editar */
+    background-color: #47a8e0;
     color: white;
 }
 
 .delete-btn {
-    background-color: #d43636; /* Cor vermelha para o botão de excluir */
+    background-color: #d43636; 
     color: white;
 }
 
